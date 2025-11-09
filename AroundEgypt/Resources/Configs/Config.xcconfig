@@ -1,0 +1,20 @@
+//
+//  Config.xcconfig
+//  SchemaTarget
+//
+//  Created by MacbookPro on 09/11/2025.
+//
+
+
+BUNDLE_ID = com.around.egypt.task
+
+APP_NAME = Around Egypt
+
+BASE_URL = https:/$()/aroundegypt.34ml.com/api/v2/
+
+ENV =
+
+VERSION = 0.0.1
+
+BUILD = 001
+

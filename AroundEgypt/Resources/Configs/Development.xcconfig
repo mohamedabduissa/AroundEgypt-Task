@@ -1,0 +1,16 @@
+//
+//  Development.xcconfig
+//  SchemaTarget
+//
+//  Created by MacbookPro on 09/11/2025.
+//
+
+#include "Config.xcconfig"
+
+BUNDLE_ID = $(inherited)
+
+APP_NAME = $(inherited) Development
+
+BASE_URL = $(inherited)
+
+ENV = $(inherited)Development
