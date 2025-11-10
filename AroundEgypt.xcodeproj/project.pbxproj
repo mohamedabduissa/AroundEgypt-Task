@@ -10,7 +10,26 @@
 		77A8D7ED2DAC497000A7B0D7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 77A8D7EC2DAC497000A7B0D7 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7776B2132EC1EE7100A5F57A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77DF57F52DA839CB00CF9458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77DF57FC2DA839CB00CF9458;
+			remoteInfo = AroundEgypt;
+		};
+		7776B2222EC1EE8C00A5F57A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77DF57F52DA839CB00CF9458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77DF57FC2DA839CB00CF9458;
+			remoteInfo = AroundEgypt;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7776B20F2EC1EE7100A5F57A /* AroundEgyptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AroundEgyptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7776B21C2EC1EE8C00A5F57A /* AroundEgyptTestsUI.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AroundEgyptTestsUI.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77DF57FD2DA839CB00CF9458 /* AroundEgypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundEgypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -25,6 +44,16 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		7776B2102EC1EE7100A5F57A /* AroundEgyptTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AroundEgyptTests;
+			sourceTree = "<group>";
+		};
+		7776B21D2EC1EE8C00A5F57A /* AroundEgyptTestsUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AroundEgyptTestsUI;
+			sourceTree = "<group>";
+		};
 		77DF57FF2DA839CB00CF9458 /* AroundEgypt */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -36,6 +65,20 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7776B20C2EC1EE7100A5F57A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7776B2192EC1EE8C00A5F57A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77DF57FA2DA839CB00CF9458 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				77DF57FF2DA839CB00CF9458 /* AroundEgypt */,
+				7776B2102EC1EE7100A5F57A /* AroundEgyptTests */,
+				7776B21D2EC1EE8C00A5F57A /* AroundEgyptTestsUI */,
 				77DF57FE2DA839CB00CF9458 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				77DF57FD2DA839CB00CF9458 /* AroundEgypt.app */,
+				7776B20F2EC1EE7100A5F57A /* AroundEgyptTests.xctest */,
+				7776B21C2EC1EE8C00A5F57A /* AroundEgyptTestsUI.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +113,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7776B20E2EC1EE7100A5F57A /* AroundEgyptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7776B2152EC1EE7100A5F57A /* Build configuration list for PBXNativeTarget "AroundEgyptTests" */;
+			buildPhases = (
+				7776B20B2EC1EE7100A5F57A /* Sources */,
+				7776B20C2EC1EE7100A5F57A /* Frameworks */,
+				7776B20D2EC1EE7100A5F57A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7776B2142EC1EE7100A5F57A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7776B2102EC1EE7100A5F57A /* AroundEgyptTests */,
+			);
+			name = AroundEgyptTests;
+			packageProductDependencies = (
+			);
+			productName = AroundEgyptTests;
+			productReference = 7776B20F2EC1EE7100A5F57A /* AroundEgyptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7776B21B2EC1EE8C00A5F57A /* AroundEgyptTestsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7776B2242EC1EE8C00A5F57A /* Build configuration list for PBXNativeTarget "AroundEgyptTestsUI" */;
+			buildPhases = (
+				7776B2182EC1EE8C00A5F57A /* Sources */,
+				7776B2192EC1EE8C00A5F57A /* Frameworks */,
+				7776B21A2EC1EE8C00A5F57A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7776B2232EC1EE8C00A5F57A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7776B21D2EC1EE8C00A5F57A /* AroundEgyptTestsUI */,
+			);
+			name = AroundEgyptTestsUI;
+			packageProductDependencies = (
+			);
+			productName = AroundEgyptTestsUI;
+			productReference = 7776B21C2EC1EE8C00A5F57A /* AroundEgyptTestsUI.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		77DF57FC2DA839CB00CF9458 /* AroundEgypt */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77DF580C2DA839CC00CF9458 /* Build configuration list for PBXNativeTarget "AroundEgypt" */;
@@ -96,9 +189,17 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
+				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					7776B20E2EC1EE7100A5F57A = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 77DF57FC2DA839CB00CF9458;
+					};
+					7776B21B2EC1EE8C00A5F57A = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 77DF57FC2DA839CB00CF9458;
+					};
 					77DF57FC2DA839CB00CF9458 = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -124,11 +225,27 @@
 			projectRoot = "";
 			targets = (
 				77DF57FC2DA839CB00CF9458 /* AroundEgypt */,
+				7776B20E2EC1EE7100A5F57A /* AroundEgyptTests */,
+				7776B21B2EC1EE8C00A5F57A /* AroundEgyptTestsUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7776B20D2EC1EE7100A5F57A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7776B21A2EC1EE8C00A5F57A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77DF57FB2DA839CB00CF9458 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +256,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7776B20B2EC1EE7100A5F57A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7776B2182EC1EE8C00A5F57A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77DF57F92DA839CB00CF9458 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,7 +279,108 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7776B2142EC1EE7100A5F57A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77DF57FC2DA839CB00CF9458 /* AroundEgypt */;
+			targetProxy = 7776B2132EC1EE7100A5F57A /* PBXContainerItemProxy */;
+		};
+		7776B2232EC1EE8C00A5F57A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77DF57FC2DA839CB00CF9458 /* AroundEgypt */;
+			targetProxy = 7776B2222EC1EE8C00A5F57A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		7776B2162EC1EE7100A5F57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AroundEgyptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AroundEgypt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AroundEgypt";
+			};
+			name = Debug;
+		};
+		7776B2172EC1EE7100A5F57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AroundEgyptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AroundEgypt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AroundEgypt";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7776B2252EC1EE8C00A5F57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AroundEgyptTestsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AroundEgypt;
+			};
+			name = Debug;
+		};
+		7776B2262EC1EE8C00A5F57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AroundEgyptTestsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AroundEgypt;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		77DF580A2DA839CC00CF9458 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReferenceAnchor = 77DF57FF2DA839CB00CF9458 /* AroundEgypt */;
@@ -350,6 +582,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7776B2152EC1EE7100A5F57A /* Build configuration list for PBXNativeTarget "AroundEgyptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7776B2162EC1EE7100A5F57A /* Debug */,
+				7776B2172EC1EE7100A5F57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7776B2242EC1EE8C00A5F57A /* Build configuration list for PBXNativeTarget "AroundEgyptTestsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7776B2252EC1EE8C00A5F57A /* Debug */,
+				7776B2262EC1EE8C00A5F57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		77DF57F82DA839CB00CF9458 /* Build configuration list for PBXProject "AroundEgypt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

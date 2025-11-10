@@ -29,6 +29,30 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7776B20E2EC1EE7100A5F57A"
+               BuildableName = "AroundEgyptTests.xctest"
+               BlueprintName = "AroundEgyptTests"
+               ReferencedContainer = "container:AroundEgypt.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7776B21B2EC1EE8C00A5F57A"
+               BuildableName = "AroundEgyptTestsUI.xctest"
+               BlueprintName = "AroundEgyptTestsUI"
+               ReferencedContainer = "container:AroundEgypt.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"

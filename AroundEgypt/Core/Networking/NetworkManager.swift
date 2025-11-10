@@ -7,17 +7,23 @@
 
 import Foundation
 
-final class NetworkManager {
+protocol NetworkManaging {
+    func send<T: Decodable>(_ request: APIRequest, as type: T.Type) async throws -> T
+}
+
+final class NetworkManager: NetworkManaging {
     static let shared = NetworkManager()
     private let session = URLSession.shared
 
     private init() {}
 
-    func send<T: Decodable>(_ request: APIRequest, responseType: T.Type) async throws -> T {
+    func send<T: Decodable>(_ request: APIRequest, as type: T.Type) async throws -> T {
         let urlRequest = try request.buildURLRequest()
+        print(urlRequest.url!)
 
         let (data, response) = try await session.data(for: urlRequest)
         guard let http = response as? HTTPURLResponse else {
+
             throw NetworkError.invalidResponse
         }
 
@@ -28,7 +34,10 @@ final class NetworkManager {
         do {
             return try JSONDecoder().decode(T.self, from: data)
         } catch {
+            print(error.localizedDescription)
+
             throw NetworkError.decodingFailed
+            
         }
     }
 }

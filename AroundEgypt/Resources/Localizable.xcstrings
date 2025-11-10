@@ -1,0 +1,39 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld" : {
+
+    },
+    "%lld views" : {
+
+    },
+    "Description" : {
+
+    },
+    "EXPLORE NOW" : {
+
+    },
+    "Most Recent" : {
+
+    },
+    "No results found" : {
+
+    },
+    "Now you can explore any experience in 360 degrees and get all the details about it all in one place." : {
+
+    },
+    "RECOMMENDED" : {
+
+    },
+    "Recommended Experiences" : {
+
+    },
+    "Search" : {
+
+    },
+    "Welcome!" : {
+
+    }
+  },
+  "version" : "1.0"
+}

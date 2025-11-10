@@ -11,12 +11,12 @@ import SwiftUI
 struct AroundEgyptApp: App {
     
     init() {
-        
+        FontLoader.registerFonts()
     }
     
     var body: some Scene {
         WindowGroup {
-            
+            HomeView()
         }
     }
 }

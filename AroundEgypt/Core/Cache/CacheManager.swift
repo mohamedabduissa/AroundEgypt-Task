@@ -7,7 +7,14 @@
 
 import Foundation
 
-final class CacheManager {
+protocol CacheManaging {
+    func save<T: Encodable>(_ object: T, forKey key: String)
+    func load<T: Decodable>(_ type: T.Type, forKey key: String) -> T?
+    func remove(forKey key: String)
+    func clearAll()
+}
+
+final class CacheManager: CacheManaging {
     static let shared = CacheManager()
 
     private let fileManager = FileManager.default
@@ -30,7 +37,7 @@ final class CacheManager {
         let url = fileURL(for: key)
         do {
             let data = try JSONEncoder().encode(object)
-            try data.write(to: url, options: .atomic)
+            try data.write(to: url, options: [.atomic])
         } catch {
             print("Cache Save Error:", error.localizedDescription)
         }
